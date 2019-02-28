@@ -41,7 +41,7 @@ public class AttentionActivity extends AppCompatActivity {
                             Toast.LENGTH_SHORT).show();
                     baby_groot.setVisibility(View.VISIBLE);
                 }
-                if(displayed == true) {
+                else if(displayed == true) {
                     displayed = false;
                     Toast.makeText(AttentionActivity.this, "Goodbye Groot!",
                             Toast.LENGTH_SHORT).show();
