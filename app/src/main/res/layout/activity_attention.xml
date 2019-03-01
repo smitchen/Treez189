@@ -45,16 +45,29 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <Button
-        android:id="@+id/show_id"
+        android:id="@+id/dummy_data_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Show image"
+        android:text="Change Neuro Data"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/pottedgroot_id"
+        android:layout_width="138dp"
+        android:layout_height="343dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689"
+        app:srcCompat="@drawable/pottedgroot" />
 
     <ImageView
         android:id="@+id/babgroot_id"
@@ -68,6 +81,32 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.689"
         app:srcCompat="@drawable/babygroot" />
+
+    <ImageView
+        android:id="@+id/teengroot_id"
+        android:layout_width="138dp"
+        android:layout_height="343dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689"
+        app:srcCompat="@drawable/teenagegroot" />
+
+    <ImageView
+        android:id="@+id/adultgroot_id"
+        android:layout_width="138dp"
+        android:layout_height="343dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689"
+        app:srcCompat="@drawable/adultgroot" />
 
 
 </android.support.constraint.ConstraintLayout>
