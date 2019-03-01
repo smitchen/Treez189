@@ -58,8 +58,8 @@
 
     <ImageView
         android:id="@+id/pottedgroot_id"
-        android:layout_width="138dp"
-        android:layout_height="343dp"
+        android:layout_width="103dp"
+        android:layout_height="273dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -84,20 +84,19 @@
 
     <ImageView
         android:id="@+id/teengroot_id"
-        android:layout_width="138dp"
-        android:layout_height="343dp"
+        android:layout_width="175dp"
+        android:layout_height="381dp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689"
+        app:layout_constraintVertical_bias="0.691"
         app:srcCompat="@drawable/teenagegroot" />
 
     <ImageView
         android:id="@+id/adultgroot_id"
-        android:layout_width="138dp"
+        android:layout_width="141dp"
         android:layout_height="343dp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"

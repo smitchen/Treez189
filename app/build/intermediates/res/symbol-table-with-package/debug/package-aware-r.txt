@@ -646,7 +646,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable notscaryadultgroot
 drawable pottedgroot
 drawable teenagegroot
 drawable tooltip_frame_dark
@@ -678,6 +677,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id adultgroot_id
 id alertTitle
 id all
 id always
@@ -707,6 +707,7 @@ id default_activity_button
 id dimensions
 id direct
 id disableHome
+id dummy_data_id
 id edit_query
 id end
 id expand_activities_button
@@ -749,6 +750,7 @@ id packed
 id parent
 id parentPanel
 id percent
+id pottedgroot_id
 id progress_circular
 id progress_horizontal
 id radio
@@ -774,7 +776,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id show_id
 id spacer
 id split_action_bar
 id spread
@@ -791,6 +792,7 @@ id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id teengroot_id
 id text
 id text2
 id textSpacerNoButtons
