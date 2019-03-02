@@ -629,8 +629,8 @@ int drawable abc_textfield_search_material 0x7f060053
 int drawable abc_vector_test 0x7f060054
 int drawable adultgroot 0x7f060055
 int drawable babygroot 0x7f060056
-int drawable babytree 0x7f060057
-int drawable healthytree 0x7f060058
+int drawable dustgroot 0x7f060057
+int drawable dustygroot 0x7f060058
 int drawable ic_launcher_background 0x7f060059
 int drawable ic_launcher_foreground 0x7f06005a
 int drawable notification_action_background 0x7f06005b

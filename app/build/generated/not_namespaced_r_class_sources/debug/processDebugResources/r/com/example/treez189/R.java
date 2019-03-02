@@ -3382,8 +3382,8 @@ public final class R {
     public static final int abc_vector_test=0x7f060054;
     public static final int adultgroot=0x7f060055;
     public static final int babygroot=0x7f060056;
-    public static final int babytree=0x7f060057;
-    public static final int healthytree=0x7f060058;
+    public static final int dustgroot=0x7f060057;
+    public static final int dustygroot=0x7f060058;
     public static final int ic_launcher_background=0x7f060059;
     public static final int ic_launcher_foreground=0x7f06005a;
     public static final int notification_action_background=0x7f06005b;

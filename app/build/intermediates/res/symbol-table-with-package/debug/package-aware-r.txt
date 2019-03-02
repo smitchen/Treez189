@@ -630,8 +630,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable adultgroot
 drawable babygroot
-drawable babytree
-drawable healthytree
+drawable dustgroot
+drawable dustygroot
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background

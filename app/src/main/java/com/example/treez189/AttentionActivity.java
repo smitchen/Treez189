@@ -36,7 +36,7 @@ public class AttentionActivity extends AppCompatActivity {
         show.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 // getNeuroData will (temporarily) increase user's dummy_data value and return it
-                int my_data = user.getNeuroData();
+                int my_data = user.getNeuroData(user.ATTEN);
                 // showTree takes that return value as input and hides and displays groots properly
                 showTree(my_data);
             }
