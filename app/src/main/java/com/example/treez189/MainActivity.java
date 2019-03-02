@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         //if (activity == ATTEN)
         //      if(my_data < 20)
         //          return DUST;
-        //        if m
+        //      if(my_data )
         if(this.dummy_data == DUST)
             this.dummy_data = POT;
         else if(this.dummy_data == POT)
